@@ -28,6 +28,10 @@ header{
 
     min-height: 100px;
     text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .logo{
     padding: 10px;
@@ -91,7 +95,9 @@ aside ul{
 }
 footer{
     margin: auto;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--cor1);
     color: white;
 }
